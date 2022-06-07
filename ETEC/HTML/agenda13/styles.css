@@ -1,0 +1,34 @@
+@font-face {
+    font-family: KGS;
+    src: url(Fontes/KGSomebodyThatIUsedToKnow.ttf);
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: KGS;
+    background-color: rgba(0, 0, 0, 0.697);
+    height: 100%;
+    min-width: 1600px;
+}
+
+.titulo {
+    color: #c8ad7f;
+
+}
+
+.titlemaincontent {
+    text-align: center;
+    color: #7bac3b;
+    font-size: 2em;
+}
+
+.caixa {
+    text-align: center;
+}
+
+img {
+    border-top: 2px dotted gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}

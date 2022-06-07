@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If-else</title>
+
+    <script>
+
+
+
+        alert("OLá, bem vindo ao progama de verificação de média")
+
+
+        //declaração de variaveis
+        var name = prompt("Digite o nome do aluno: ")
+        var nota1 = parseInt(prompt("Digite a 1° nota do aluno: ")) //ParseInt para tranformar a var string em number
+        var nota2 = parseInt(prompt("Digite a 2° nota do aluno: ")) //O prompt exibe uma caixa de INput para o user
+        var faltas = parseInt(prompt("Digite o numero de faltas  do aluno: "))
+
+        //Especificando variaveis
+        var faltas_maxima = 15
+        var media = 5;
+        var process = (nota1 + nota2)/2              //variavel para realizar a conta
+        
+        
+
+        if ( process >= media && faltas_maxima <= faltas) {  //O componente && serve para comparar os 2 elementos com (+ && +)
+            alert("O aluno " + name + " teve a media de " + process + ", logo está aprovado ")
+
+        }  else {
+            alert("O aluno " + name + " teve a media de " + process + ", logo está reprovado ")
+
+        }
+
+            console.log
+ 
+
+    </script>
+
+
+</head>
+<body>
+    
+</body>
+</html>

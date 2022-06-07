@@ -1,0 +1,226 @@
+html,
+body,
+#home {
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background: url(../imagens/capa.png),
+                url(../imagens/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler .nav-bg-fff {
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.divisor {
+    width: 1px;
+    background: #fff;
+    margin: 12px 15px;
+}
+
+nav div ul li {
+    margin: 0 5px;
+}
+
+.capa {
+    text-align: center;
+}
+
+.capa h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+/* Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap */
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .capa h1 {
+        font-size: 3em;
+
+    }
+
+    section div a.btn.btn-custom {
+        
+        margin: 10px 5px;
+
+    }
+
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .capa h1 {
+        font-size: 4em;
+
+    }
+
+    section div a.btn.btn-custom {
+        
+        margin: 10px 5px;
+
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .capa h1 {
+        font-size: 5em;
+    }
+
+}
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+		
+		.capa h1 {
+		font-size: 6em;
+		}
+	}
+
+	.btn-custom {
+		color: white;
+		border-radius: 500px;
+		-webkit-border-radius: 500px;
+		-moz-border-radius: 500px;
+		text-transform: uppercase;
+		transition: background 0.4s, color 0.4s;
+		padding: 10px 20px;
+        margin-bottom: 10px;
+	}
+	
+	.btn-roxo {
+		background: #7c25f8;
+	}
+	
+	.btn-roxo:hover {
+		background: #6207e3;
+		color: white;
+	}
+	
+	.btn-branco {
+		background-color: rgba(255, 255, 255, 0.1);
+		border: 2px solid white;
+		color: #fff;
+	}
+	
+	.btn-branco:hover {
+		background-color: white;
+		color: black;
+	}
+
+    #servicos {
+        background: #fff;
+        padding: 20px 0;
+    }
+
+    .albuns {
+        padding-top: 20px;
+    }
+
+    h2 {
+        font-size: 3em;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+    }
+
+    h3 {
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+    }
+
+    #servicos div h2, h3 {
+    color: #7c25f8;
+    }
+
+    #recursos h2{
+        color: #fff;
+    }
+
+    #recursos h3 {
+        color: #9bf0e1;
+    }
+
+    #recursos {
+        padding: 20px 0;
+    }
+		
+    #recursos p {
+        color: #fff;
+    }
+
+    .rotacionar {
+        transform: rotate(30deg);
+        -ms-transform: rotate(30deg); /* IE 9 */
+        -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+        
+        padding-left: 80px;
+    }
+	
+    p {
+        word-break: break-word;
+    }
+
+    footer {
+        position: relative;
+        background: #000;
+        padding: 50px 0 20px 0;
+    }
+
+    footer h4 {
+        margin-top: 10px;
+        color: #919496;
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+
+    footer .navbar-nav a {
+        color: white;
+	    font-size: 0.9em;
+        text-decoration: none;
+    }
+
+    footer .navbar-nav a:hover {
+        color: #9bf0e1;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    
+    footer ul {
+        list-style: none;
+    }
+
+    
+    footer ul li {
+        float: right;
+        margin: 0 5px;
+    }

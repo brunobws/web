@@ -1,0 +1,218 @@
+body {
+	background: #f4f2ec url(../img/fundo.png) repeat-x;
+	font: 12px "Lucinda Grande", "Lucinda Sans Unicode", Arial, sans-serif;
+	height: 100%;
+	word-wrap: break-word;
+
+}
+
+#principal {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #af670a;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #000;
+}
+
+/*-----------*/
+
+header {
+	padding: 13px 0;
+	height: 55px;
+}
+
+#logo h1 a {
+
+	margin-top: 15px;
+	float: left;
+	width: 248px;
+	height: 21px;
+	text-indent: -99999px;
+	display: block;
+	background: url(../img/logo.png) no-repeat;
+}
+
+#logo h1 a:hover {
+	cursor: none;
+}
+
+nav ul {
+	list-style: none;
+	margin: 20px;
+	float: right;
+
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	
+	font-size: 13px;
+	border-bottom: 1.7px solid #535858;
+	color: #af670a;
+	
+	
+}
+
+#content {
+	width: 710px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+aside {
+	width: 350px;
+	float: right;
+	background: #ebe7dd;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+section#visita {
+	background: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
+
+}
+
+h3{
+	color: #86521a;
+	font-size: 1em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0  ;
+}
+
+input {
+	height: 20px;
+	background: #fff;
+	border: none;
+	font-size: 1em;
+}
+
+input.campo {
+	border: 1px solid #ada484;
+	margin-bottom: 5px;
+
+
+}
+
+input.botao {
+	background: #9b9271;
+	color: #fff;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	display: none;
+}
+
+label {
+	font-weight: bold;
+	font-style: oblique;
+	
+}
+
+article#video {
+	float: left;
+	width: 310px;
+	
+}
+
+article#mapa {
+	float: left;
+	width: 310px;
+	margin-left: 37px;
+}
+
+article#exposicões {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 0px;
+
+}
+
+article#exposicões ul {
+	list-style: square;
+	margin-left: -20px;
+}
+
+article#exposicões ul li  {
+	margin-top: 3px;
+	color: rgb(15, 9, 9);
+}
+
+article#exposicões ul li a {
+	color: #000;
+}
+
+article#exposicões ul li a:hover {
+	color: green;
+	font-size: 13px;
+}
+
+article#historia {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 37px;
+
+}
+
+
+section#galeria {
+	padding: 0 27px 0 27px;
+}
+
+section#galeria a {
+	display: block;
+	background: url(../img/fundo-foto.png) no-repeat;
+	border: 1px red;
+	float: left;
+	padding: 15px 15px 17px 15px;
+	margin: 10px 0 0 20px;
+
+}
+
+section#galeria img {
+	margin-left: 2px;
+	margin-top: 3px;
+}
+
+footer{
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: url(../img/fundo-rodape.png) no-repeat center top;
+}
+
+footer p a {
+	padding: 2px;
+	margin-top: 20px;
+}

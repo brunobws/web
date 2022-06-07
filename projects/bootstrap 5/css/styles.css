@@ -1,0 +1,15 @@
+body {
+    scroll-behavior: smooth;
+}
+
+body.size-good{
+    padding: 16px;
+    margin-bottom: 200px;
+    scroll-behavior: smooth;
+}
+
+.bg-color-dark {
+    background-color: rgba(41, 40, 40, 0.829);
+}
+
+
