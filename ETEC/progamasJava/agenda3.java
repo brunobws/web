@@ -8,7 +8,7 @@ public class agenda3 {
         int serie;
         double media;
 
-        Scanner leitor = new Scanner (System.in);
+        Scanner leitor = new Scanner (System.in); 
 
          System.out.println ("Digite o nome do aluno: ");
          nome=leitor.next ();
@@ -27,6 +27,8 @@ public class agenda3 {
          System.out.println ("Telefone: " + telefone);
          System.out.println ("Série: " + serie);
          System.out.println ("Média: " + media);
+
+        
 
         }
 }

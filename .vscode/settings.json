@@ -1,6 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "projects/ETEC",
-        "ETEC"
+        "ETEC/progamasJava"
     ]
 }
