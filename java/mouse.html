@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos do mouse</title>
+
+    <style>
+      .caixa {
+        background: #ccc;
+        width: 150px;
+        height: 150px;
+        border: 1px solid #000;
+      }
+
+      .home {
+        border-top: 1px dotted #ccc;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        display: flex;
+        justify-content: space-around;
+
+      }
+    </style>
+
+    <script>
+
+        function acaoOnclick() {
+            alert('Ação no evento Onclick')
+        }
+
+        function acaoOndblick() {
+            alert('Ação no evento Ondbclick')
+        }
+
+        function acaoOnmouseup() {
+            alert('Ação no evento Onmouseup')
+        }
+
+        function acaoOnmouseover() {
+            alert('Ação no evento Onmouseover')
+        }
+
+        function acaoOnmouseout() {
+            alert('Ação no evento Onmouseout')
+        }
+
+    </script>
+
+
+  </head>
+
+  <body>
+    <header style="text-align: center">
+      <h1>Eventos do mouse no JS</h1>
+    </header>
+
+    <section class="home">
+
+      <span>
+        <h2>onclick:</h2>
+        <div class="caixa" onclick="acaoOnclick()"></div>
+      </span>
+
+      <span>
+        <h2>ondbclick:</h2>
+        <div class="caixa" ondblclick="acaoOndblick()"></div>
+      </span>
+
+      <span>
+        <h2>onmouseup:</h2>
+        <div class="caixa" onmouseup="acaoOnmouseup()"></div>
+      </span>
+
+      <span>
+        <h2>onmouseover:</h2>
+        <div class="caixa" onmouseover="acaoOnmouseover()"></div>
+      </span>
+
+      <span>
+        <h2>onmouseout:</h2>
+        <div class="caixa" onmouseout="acaoOnmouseout()"></div>
+      </span>
+
+    </section>
+  </body>
+</html>

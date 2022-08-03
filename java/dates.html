@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dates</title>
+
+    <style>
+
+        body {
+            height: 100%;
+            min-width: 700px; 
+        }
+
+        #home {
+            height: 100%;
+            width: 75%;
+            border: 1px solid #000;
+            margin: auto;
+            
+            
+        }
+
+        .center {
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div id="home">
+
+    <header class="center">
+        <h1>Funçoes datas no JS</h1>
+        <h3>Data é um objeto que precisa ser instanciado (Precisando do "new")</h3>
+    </header>
+
+    <section style="margin-left: 25px;">
+
+        <script>
+
+            var data = new Date()
+
+            // O dia que estamos de forma dinamica
+            document.write('<h4>O dia:</h4>')
+            document.write(data.getDate() + '<p></p>')
+
+            // O mes que estamos de forma dinamica
+            document.write('<h4>O mes:</h4>')
+            document.write(data.getMonth() + 1 + '<p></p>') //Precisando somar a 1 pois o mes sera de 0 - 11
+            
+            // O ano que estamos de forma dinamica
+            document.write('<h4>O ano:</h4>')
+            document.write(data.getFullYear() + '<p></p>')
+
+            document.write('<h4> Estamos em: </h4>')
+            document.write(data.getDate() + '/' +  (data.getMonth() + 1) + '/' +  data.getFullYear() )
+
+            document.write('<hr /> <br /> <br />')
+
+            
+            //22/07/2022
+            var data1 = new Date(2022, 6, 22)
+
+            //24/08/2029
+            var data2 = new Date(2029, 5, 24)
+
+            document.write(data1.toString())
+            document.write('<hr />')
+            document.write(data2.toString())
+
+            document.write('<br /><br /><hr />')
+
+            //converter datas para algo que possamos calcular
+            document.write(data1.getTime())
+            document.write('<hr />')
+            document.write(data2.getTime())
+            // o getTime ira pegar a informação do tempo em milisegundos
+
+            document.write('<br /><br /><hr />')
+
+            //encontar a qtde de milissegundos entre data1 e data2
+            var milissegundos_entre_datas = Math.abs(data1.getTime() - data2.getTime())
+            document.write(milissegundos_entre_datas)
+
+            //1 dia tem 24, cada hora tem 60 minutos, 
+            //cada minuto tem 60 segundos e 
+            //cada segundo tem 1000 milissegundos
+            //então quantos milissegundos existem em um dia?
+            var milissegundos_por_dia = (1*24*60*60*1000)
+            document.write(' 1 dia tem: ' + milissegundos_por_dia + ' milissegundos' )
+
+            document.write('<br /><br /><hr />')
+            document.write('A diferença entre data1 e data2 é de ' + Math.ceil(milissegundos_entre_datas / milissegundos_por_dia) + ' dia(s)')
+
+        </script>
+    
+    </section>
+
+</div>   
+</body>
+</html>
